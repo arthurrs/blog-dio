@@ -1,0 +1,20 @@
+{
+  "name": "getting_started_node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Aula",
+    "Node",
+    "DIO"
+  ],
+  "author": "arthur-ramos",
+  "license": "ISC",
+  "description": "Aplicação de estudo Node JS",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

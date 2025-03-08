@@ -1,17 +1,3 @@
-// const http = require("http")
-
-// const hostname = "localhost"
-// const port = 3333
-
-// const server = http.createServer((req, res)=>{
-//     res.setHeader("Content-type", "text-plain")
-//     res.end("Hello World!")
-// })
-
-// server.listen(port, hostname, ()=>{
-//     console.log("Servidor Rodando!!!!!")
-// })
-
 const express = require("express")
 const path = require("path")
 
@@ -28,6 +14,6 @@ router.get("/contato", (req , res) => {
 
 app.use(router)
 
-app.listen(3333, ()=> {
+app.listen(process.env.PORT || 3333, ()=> {
     console.log("Servidor Rodando!!!!")
 })
